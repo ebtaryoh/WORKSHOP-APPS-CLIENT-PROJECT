@@ -1,13 +1,15 @@
 import React from "react";
 import { Dropdown, Image, Navbar } from "react-bootstrap";
 import DropDown from "./DropDown";
+import logo3 from "../../src/images/logo3.png" 
+import logo1 from "../../src/images/logo1.png"
 
 const Navbar1 = () => {
   return (
     <Navbar className="shadow">
       <div className="d-flex flex-row gap-3 align-items-center m-auto my-1 image-container navbar-res ">
-        <Image className="mb-4 top-image" src="../../src/images/logo1.png" />
-        <Image className="mb-4  " src="../../src/images/logo3.png" />
+        <Image className="mb-4 top-image" src={logo1} />
+        <Image className="mb-4  " src={logo3} />
         <DropDown />
       </div>
       <hr />

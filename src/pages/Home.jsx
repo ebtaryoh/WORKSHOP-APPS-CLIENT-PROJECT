@@ -3,6 +3,7 @@ import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import Portfolio from "./Portfolio";
+import bulb from "../../src/images/light-bulb.png";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
           </h1>
           <p>Explore the 24 apps with unique solutions and their metrics</p>
         </div>
-        <Image className="my-5 w-50" src="../../src/images/light-bulb.png" />
+        <Image className="my-5 w-50" src={bulb} />
       </div>
       <div className="d-flex flex-column gap-4 my-5">
         <div className="">

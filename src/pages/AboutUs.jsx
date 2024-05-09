@@ -2,6 +2,10 @@ import React from "react";
 import { Image, Button } from "react-bootstrap";
 import { PiLineVerticalBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
+import image1 from "../../src/images/About-Image1.png";
+import image2 from "../../src/images/About-Image2.png";
+import video from "../../src/images/Video_Hero.png";
+import image3 from "../../src/images/About-Image3.png";
 
 const AboutUs = () => {
   return (
@@ -15,10 +19,7 @@ const AboutUs = () => {
               have the experience you need to among the 10% successful start ups
             </p>
           </div>
-          <Image
-            className="m-5 about-hero-img"
-            src="../../src/images/Video_Hero.png"
-          />
+          <Image className="m-5 about-hero-img" src={video} />
         </div>
 
         <div className=" space-all">
@@ -31,12 +32,9 @@ const AboutUs = () => {
 
       <div className=" about-imgtex-res  container d-flex gap-5 my-5 ">
         <div className="d-flex flex-column about-res1  position-relative  gap-3  ">
-          <Image className=" " src="../../src/images/About-Image1.png" />
-          <Image className=" " src="../../src/images/About-Image2.png" />
-          <Image
-            className="   img3-pos "
-            src="../../src/images/About-Image3.png"
-          />
+          <Image className=" " src={image1} />
+          <Image className=" " src={image2} />
+          <Image className="   img3-pos " src={image3} />
         </div>
         <div className="  my-5 ps-5 text-start  w-50 ms-auto my-auto">
           <div className=" about-tex-res   ps-5 ">

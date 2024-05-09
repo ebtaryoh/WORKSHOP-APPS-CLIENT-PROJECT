@@ -6,13 +6,14 @@ import { TfiTwitter } from "react-icons/tfi";
 import { RiYoutubeLine } from "react-icons/ri";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { GrInstagram } from "react-icons/gr";
+import logo2 from "../../src/images/logo2.png";
 
 const Footer = () => {
   return (
     <div>
       <Outlet />
       <div className="dark-bgcolor d-flex flex-column align-items-center gap-5 py-5">
-        <Image className="w-25" src="../../src/images/logo2.png" />
+        <Image className="w-25" src={logo2} />
         <div className="d-flex gap-5  justify-content-center ">
           <LiaFacebook className="     text-white " />
           <TfiTwitter className="text-white " />
